@@ -84,7 +84,7 @@ business assumptions about discounts, subscriptions, and demographics.
 The full interactive Power BI dashboard with slicers and filters
 is available in the dashboard folder.
 
-[Download Power BI File](dashboard/retail_customer_behavior_analysis.pbix)
+[Download Power BI Dashboard File](https://github.com/priyanka-insights/retail-customer-behaviour-analysis/raw/main/dashboard/retail_customer_behaviour_analysis.pbix)
 
 > Open the .pbix file in Power BI Desktop to interact with 
 > Category, Season, and Gender slicers across both pages.
