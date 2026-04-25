@@ -70,9 +70,8 @@ business assumptions about discounts, subscriptions, and demographics.
 - **Subscribers do not spend more** ($59.49 vs $59.87) — subscription 
   value is non-monetary. 2,583 loyal customers are not subscribed — 
   the single biggest conversion opportunity in the dataset.
-
+  
 ---
-
 ## Dashboard Preview
 
 ### Page 1 — Revenue & Demographics
@@ -81,10 +80,33 @@ business assumptions about discounts, subscriptions, and demographics.
 ### Page 2 — Customer Segmentation & Promotions
 ![Page 2 Segmentation Dashboard](dashboard/page2_segmentation.png)
 
+### Interactive Dashboard File
+The full interactive Power BI dashboard with slicers and filters
+is available in the dashboard folder.
+
+[Download Power BI File](dashboard/retail_customer_behavior_analysis.pbix)
+
+> Open the .pbix file in Power BI Desktop to interact with 
+> Category, Season, and Gender slicers across both pages.
+
+
+
+## Tools & Workflow
+
+| Phase | Tool | Deliverable |
+|-------|------|-------------|
+| Phase 1 | Project Setup | Folder structure, business questions |
+| Phase 2 | Python — pandas, numpy, matplotlib, seaborn | EDA notebook — 7 charts |
+| Phase 3 | MySQL | 12 business queries with window functions |
+| Phase 4 | Power BI | 2-page interactive dashboard |
+| Phase 5 | Excel | Executive summary report |
+| Phase 6 | Markdown | 5 insights with business recommendations |
+
 ---
 
 ## Project Structure
 
+```
 retail-customer-behaviour-analysis/
 │
 ├── data/
@@ -108,22 +130,8 @@ retail-customer-behaviour-analysis/
 │   └── insights_and_recommendations.md  # 5 structured insights
 │
 └── README.md
+```
 ---
----
-
-## Tools & Workflow
-
-| Phase | Tool | Deliverable |
-|-------|------|-------------|
-| Phase 1 | Project Setup | Folder structure, business questions |
-| Phase 2 | Python — pandas, numpy, matplotlib, seaborn | EDA notebook — 7 charts |
-| Phase 3 | MySQL | 12 business queries with window functions |
-| Phase 4 | Power BI | 2-page interactive dashboard |
-| Phase 5 | Excel | Executive summary report |
-| Phase 6 | Markdown | 5 insights with business recommendations |
-
----
-
 ## How to Run
 
 **Step 1 — Clone the repository**
