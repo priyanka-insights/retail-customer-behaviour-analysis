@@ -88,7 +88,16 @@ is available in the dashboard folder.
 
 > Open the .pbix file in Power BI Desktop to interact with 
 > Category, Season, and Gender slicers across both pages.
+---
 
+## Excel Executive Report
+
+A manager-ready one-page summary built in Excel — 
+printable and shareable without requiring Power BI access.
+
+![Excel Executive Report](excel/excel_executive_report.png)
+
+---
 
 
 ## Tools & Workflow
